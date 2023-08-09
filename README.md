@@ -28,3 +28,27 @@ Before you begin, make sure you have the following:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/google-contacts-birthday-reminder.git
+
+2. Navigate to the project directory:
+     ```bash
+    cd google-contacts-birthday-reminder
+     
+3. Place the credentials.json file you downloaded from Google API Quickstart into the src/main/resources directory.
+
+## Usage
+1. Build the project using Gradle:
+     ```bash
+    ./gradlew build
+
+2. Run the application:
+     ```bash
+    ./gradlew run
+     
+3. The application will fetch contact information and birthdays from your Google Contacts and provide reminders for upcoming birthdays.
+
+
+## Contributing
+Contributions are welcome! If you find any issues or have improvements to suggest, feel free to open a GitHub issue or submit a pull request.
+
+## License
+This project is licensed under the MIT License.
